@@ -1,0 +1,31 @@
+.detail_container {
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 50px;
+    padding: 20px;
+    font-weight: 300;
+}
+
+.detail_container img {
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.25);    
+}
+
+.detail_title, .detail_year {
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.detail_genres {
+    list-style-type: none;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+}
+
+.detail_genres li {
+    margin-right: 10px;
+    font-size: 14px;
+}
